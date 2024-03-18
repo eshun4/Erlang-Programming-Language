@@ -187,6 +187,26 @@ In Erlang we can separate the head from the tail using the notation:
 - Variables in Erlang must start with an uppercase letter or an underscore _ Notions about Variables
 - After the first character, variable names can consist of letters (uppercase or lowercase), digits, and underscores.
 
+# Introduction to Modules
+- On the previous section we used the interactive shell to play with most of Erlang’s basic data types without ever opening a text editor or saving a file.
+
+- However, code needs to be saved somewhere to be used. That’s what modules are for.
+
+- A module is a bunch of functions grouped together in a single file, under a single name.
+
+- A module is a bunch of functions grouped together in a single file, under a single name.
+
+- All functions in Erlang must be defined in modules.
+
+-For instance, the built-in functions (BIFs), such as hd and tl belong to the erlang module.
+
+- BIFs are automatically imported when we use Erlang.
+Every other function defined in a module needs to be called with the form Module:Function(Arguments)
+
+-
+
+
+
 
 
 
